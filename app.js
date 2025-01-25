@@ -32,3 +32,4 @@ function mostrarAmigo(){
 
 }
 
+let amigos= [];
