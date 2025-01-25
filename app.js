@@ -29,6 +29,13 @@ function sortearAmigo(){
 function mostrarAmigo(){
     let amigo = document.querySelector("#resultado");
     amigo.innerHTML = `el amigo sorteado es: ${sortearAmigo()}`
+    limpiarNombre();
+
+}
+
+function limpiarNombre(){
+    let lista = document.getElementById("listaAmigos");
+    lista.innerHTML = "";
 
 }
 
